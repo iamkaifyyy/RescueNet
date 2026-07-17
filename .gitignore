@@ -1,0 +1,12 @@
+# Dependencies
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment Variables & Keys
+**/.env
+**/prisma/migrations/**/*.sql
+
+# System Files
+**/.DS_Store
+**/*.tsbuildinfo

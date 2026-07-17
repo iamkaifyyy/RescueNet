@@ -1,0 +1,10 @@
+{
+  "name": "rescuenet-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev": "npx concurrently -k -p \"[{name}]\" -n \"client,server\" -c \"cyan,green\" \"npm:dev:frontend\" \"npm:dev:backend\""
+  }
+}

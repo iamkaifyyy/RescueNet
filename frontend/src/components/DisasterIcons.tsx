@@ -1,0 +1,51 @@
+import { 
+  Flame, 
+  Droplet, 
+  Activity, 
+  AlertTriangle, 
+  ShieldAlert, 
+  Shield, 
+  User, 
+  MapPin, 
+  Heart, 
+  RefreshCw, 
+  Radio, 
+  Plus, 
+  Globe, 
+  List, 
+  Check, 
+  Clock, 
+  Building,
+  Settings,
+  Bell,
+  Menu,
+  X,
+  FileText
+} from "lucide-react";
+
+export const Icons = {
+  fire: Flame,
+  flood: Droplet,
+  earthquake: Activity,
+  accident: AlertTriangle,
+  alert: ShieldAlert,
+  responder: Shield,
+  citizen: User,
+  service: MapPin,
+  volunteer: Heart,
+  sync: RefreshCw,
+  broadcasting: Radio,
+  plus: Plus,
+  globe: Globe,
+  list: List,
+  check: Check,
+  clock: Clock,
+  building: Building,
+  settings: Settings,
+  bell: Bell,
+  menu: Menu,
+  x: X,
+  fileText: FileText
+};
+
+export default Icons;

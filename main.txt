@@ -1,0 +1,14 @@
+const endpoint = "https://earthquake.usgs.gov/fdsnws/event/1/query";
+const params = new URLSearchParams({
+  format: "geojson",
+  starttime: "2026-07-01",
+  endtime: "2026-07-15",
+  minmagnitude: "5",
+  orderby: "time"
+});
+
+const res = await fetch(`${endpoint}?${params}`);
+const data = await res.json();
+console.log(data.features);
+
+----------------------------------------------
