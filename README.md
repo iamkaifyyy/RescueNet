@@ -78,17 +78,7 @@ RescueNet is a next-generation Emergency Response & Operations Control (EOC) pla
 Create a `.env` file in the `backend/` directory:
 
 ```env
-# Server Configuration
-PORT=5001
-NODE_ENV=development
-JWT_SECRET=your_jwt_secret_key_here
 
-# PostgreSQL Database (Prisma connection)
-DATABASE_URL="postgresql://<username>:<password>@<host>:<port>/<dbname>?sslmode=require"
-
-# MongoDB Database (Mongoose connection)
-MONGODB_URI="mongodb://localhost:27017/rescuenet"
-```
 
 ---
 
